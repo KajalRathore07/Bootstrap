@@ -1,0 +1,116 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+
+
+.sidebar{
+    background:#1f2937;
+    min-height:100vh;
+}
+
+.sidebar h2{
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.list-group{
+    border:none;
+}
+
+.list-group-item{
+    background:transparent;
+    color:#d1d5db;
+    border:none;
+    padding:15px 18px;
+    margin-bottom:8px;
+    border-radius:10px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.list-group-item:hover{
+    background:#374151;
+    color:#fff;
+}
+
+.list-group-item.active{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
+
+
+.main-content{
+    padding:30px;
+}
+
+
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-body h6{
+    color:#6b7280;
+    font-size:15px;
+}
+
+.card-body h2{
+    margin:12px 0;
+    font-weight:700;
+}
+
+.progress{
+    height:10px;
+    border-radius:20px;
+    background:#e5e7eb;
+}
+
+.progress-bar{
+    border-radius:20px;
+}
+
+
+h2{
+    font-weight:700;
+}
+
+.text-muted{
+    font-size:15px;
+}
+
+
+.btn-primary{
+    padding:10px 22px;
+    border-radius:10px;
+    font-weight:500;
+}
+
+
+
+.card-header{
+    font-size:18px;
+    font-weight:600;
+}
+
+.table{
+    margin-bottom:0;
+}
+
+.table thead

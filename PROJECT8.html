@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeskFlow - Help Desk</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-4">
+
+    <!-- Header -->
+    <div class="desk-header text-white p-4 rounded-4 mb-4">
+
+        <div class="d-flex justify-content-between align-items-center">
+
+            <div>
+                <h2 class="fw-bold mb-1">DeskFlow</h2>
+                <p class="mb-0">
+                    Customer Support Dashboard
+                </p>
+            </div>
+
+            <button class="btn btn-light rounded-pill px-4">
+                + New Ticket
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Left Panel -->
+
+        <div class="col-lg-4">
+
+            <div class="card border-0 shadow rounded-4">
+
+                <div class="card-body">
+
+                    <h5 class="fw-bold mb-3">
+                        Tickets
+                    </h5>
+
+                    <!-- Search -->
+
+                    <input
+                        type="text"
+                        class="form-control rounded-pill mb-4"
+                        placeholder="Search tickets">
+
+                    <!-- Ticket 1 -->
+
+                    <div class="ticket-item active-ticket">
+
+                        <div class="d-flex justify-content-between">
+
+                            <h6 class="mb-1">
+                                Login Issue
+                            </h6>
+
+                            <span class="badge bg-danger">
+                                High
+                            </span>
+
+                        </div>
+
+                        <small class="text-muted">
+                            Customer cannot login.
+                        </small>
+
+                    </div>
+
+                    <!-- Ticket 2 -->
+
+                    <div class="ticket-item">
+
+                        <div class="d-flex justify-content-between">
+
+                            <h6 class="mb-1">
+                                Payment Failed
+                            </h6>
+
+                            <span class="badge bg-warning text-dark">
+                                Medium
+                            </span>
+
+                        </div>
+
+                        <small class="text-muted">
+                            Payment declined.
+                        </small>
+
+                    </div>
+
+                    <!-- Ticket 3 -->
+
+                    <div class="ticket-item">
+
+                        <div class="d-flex justify-content-between">
+
+                            <h6 class="mb-1">
+                                Password Reset
+                            </h6>
+
+                            <span class="badge bg-success">
+                                Low
+                            </span>
+
+                        </div>
+
+                        <small class="text-muted">
+                            Reset email not received.
+                        </small>
+
+                    </div>
+
+                    <!-- Ticket 4 -->
+
+                    <div class="ticket-item">
+
+                        <div class="d-flex justify-content-between">
+
+                            <h6 class="mb-1">
+                                Account Locked
+                            </h6>
+
+                            <span class="badge bg-danger">
+                                High
+                            </span>
+
+                        </div>
+
+                        <small class="text-muted">
+                            Too many login attempts.
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Panel -->
+
+        <div class="col-lg-8">
+
+            <div class="card border-0 shadow rounded-4">
+
+                <div class="card-body">
+
+                    <h4 class="fw-bold">
+                        Ticket Details
+                    </h4>
+
+                    <hr>
+
+                    <!-- Part 3 will continue here -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
